@@ -14,64 +14,61 @@
         <nav class="navbar navbar-light py-2">
           <div class="container justify-content-center justify-content-lg-between">
             <a class="navbar-brand" href="../index.html">
-              <img src="../assets/images/logo/freshcart-logo.svg" alt="" class="d-inline-block align-text-top">
+              <img src="./assets/images/logo/freshcart-logo.svg" alt="" class="d-inline-block align-text-top">
             </a>
-            <span class="navbar-text">
-                Already have an account? <a href="../pages/signin.html">Sign in</a>
-              </span>
+            </span>
           </div>
         </nav>
       </div>
       <!--Section  -->
-      <section class="my-lg-14 my-8">
-        <!-- container -->
+      <section class="mt-5"  >
         <div class="container">
           <!-- row -->
           <div class="row justify-content-center align-items-center">
             <div class="col-12 col-md-6 col-lg-4 order-lg-1 order-2">
               <!-- img -->
-              <img src="../assets/images/svg-graphics/signup-g.svg" alt="" class="img-fluid">
+              <img src="./assets/images/svg-graphics/signin-g.svg" alt="" class="img-fluid">
             </div>
             <!-- col -->
             <div class="col-12 col-md-6 offset-lg-1 col-lg-4 order-lg-2 order-1">
               <div class="mb-lg-9 mb-5">
-                <h1 class="mb-1 h2 fw-bold">Get Start Shopping</h1>
-                <p>Welcome to FreshCart! Enter your email to get started.</p>
+                <h1 class="mb-1 h2 fw-bold">Sign in to FreshCart</h1>
+                <p>Welcome back to FreshCart! Enter your email to get started.</p>
               </div>
-              <!-- form -->
-              <form >
+    
+              <form action="inc/signup.inc.php" method="post">
                 <div class="row g-3">
-                  <!-- col -->
-                  <div class="col">
-                    <!-- input --><input type="text" class="form-control" placeholder="First name" aria-label="First name" required="">
-                  </div>
-                  <div class="col">
-                    <!-- input --><input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required="">
-                  </div>
-                  <div class="col-12">
+                  <!-- row -->
     
-                    <!-- input --><input type="email" class="form-control" id="inputEmail4" placeholder="Email" required="" oldautocomplete="remove" autocomplete="off">
-                  <div id="pwm-inline-icon-63150" class="pwm-field-icon" style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; z-index: 2147483645 !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -29.3124px; margin-left: 334px;"><svg style="display: inline-block !important; width: 16px !important; height: 16px !important; fill: rgb(230, 0, 23) !important; margin-top: 0.5px !important; position: absolute !important; top: 0px !important; left: 0px !important;" viewBox="0 0 40 64"><g><path d="m20,28.12a33.78,33.78 0 0 1 13.36,2.74a22.18,22.18 0 0 1 0.64,5.32c0,9.43 -5.66,17.81 -14,20.94c-8.34,-3.13 -14,-11.51 -14,-20.94a22.2,22.2 0 0 1 0.64,-5.32a33.78,33.78 0 0 1 13.36,-2.74m0,-28.12c-8.82,0 -14,7.36 -14,16.41l0,5.16c2,-1.2 2,-1.49 5,-2.08l0,-3.08c0,-6.21 2.9,-11.41 8.81,-11.41l0.19,0c6.6,0 9,4.77 9,11.41l0,3.08c3,0.58 3,0.88 5,2.08l0,-5.16c0,-9 -5.18,-16.41 -14,-16.41l0,0zm0,22c-6.39,0 -12.77,0.67 -18.47,4a31.6,31.6 0 0 0 -1.53,9.74c0,13.64 8.52,25 20,28.26c11.48,-3.27 20,-14.63 20,-28.26a31.66,31.66 0 0 0 -1.54,-9.77c-5.69,-3.3 -12.08,-4 -18.47,-4l0,0l0.01,0.03z"></path><path d="m21.23,39.5a2.81,2.81 0 0 0 1.77,-2.59a2.94,2.94 0 0 0 -3,-2.93a3,3 0 0 0 -3,3a2.66,2.66 0 0 0 1.77,2.48l-1.77,4.54l6,0l-1.77,-4.5z"></path></g></svg></div></div>
                   <div class="col-12">
-    
-                    <!-- input --><input type="password" class="form-control" id="inputPassword4" placeholder="Password" required="" oldautocomplete="remove" autocomplete="off">
-                  <div id="pwm-inline-icon-23432" class="pwm-field-icon" style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; z-index: 2147483645 !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -29.3124px; margin-left: 334px;"><svg style="display: inline-block !important; width: 16px !important; height: 16px !important; fill: rgb(230, 0, 23) !important; margin-top: 0.5px !important;" viewBox="0 0 20 20"><g><path d="M14.9127559,5.43359723 C13.9827216,4.58951985 12.8308672,4.0225262 11.5692789,3.80232854 C7.92872888,3.16142854 4.44202888,5.60772854 3.80367888,9.25082854 C3.49342888,11.0154285 3.89037888,12.7953285 4.91887888,14.2624285 C5.94822888,15.7286785 7.48757888,16.7078785 9.25217888,17.0164285 C11.1238789,17.3453785 13.0576289,16.8591785 14.5561789,15.6836285 C14.9259289,15.3920785 15.4605789,15.4575285 15.7487289,15.8272785 C16.0394289,16.1970285 15.9748289,16.7308285 15.6059289,17.0206785 C14.1141789,18.1919785 12.2764789,18.8167285 10.4056289,18.8167285 C9.92367888,18.8167285 9.44002888,18.7750785 8.95807888,18.6917785 C6.74637888,18.3033285 4.81772888,17.0776285 3.52742888,15.2382285 C2.23797888,13.4005285 1.74072888,11.1692785 2.12832888,8.95672854 C2.92902888,4.38967854 7.29292888,1.32712854 11.8633789,2.12697854 C13.4205324,2.40009833 14.8442726,3.09412153 16.0007123,4.12545035 L16.7423789,3.23367854 C16.9905789,2.93532854 17.4691289,3.01777854 17.6034289,3.38242854 L18.9506789,7.03657854 C19.0849789,7.40122854 18.7747289,7.77352854 18.3922289,7.70807854 L14.5536289,7.04762854 C14.1711289,6.98217854 14.0036789,6.52657854 14.2518789,6.22822854 L14.9127559,5.43359723 Z M8.04092888,10.3711285 C8.04092888,11.0570785 7.48502888,11.6121285 6.79992888,11.6121285 C6.11482888,11.6121285 5.55892888,11.0570785 5.55892888,10.3711285 C5.55892888,9.68602854 6.11482888,9.13012854 6.79992888,9.13012854 C7.48502888,9.13012854 8.04092888,9.68602854 8.04092888,10.3711285 Z M11.9713289,10.3711285 C11.9713289,11.0570785 11.4154289,11.6121285 10.7303289,11.6121285 C10.0443789,11.6121285 9.48932888,11.0570785 9.48932888,10.3711285 C9.48932888,9.68602854 10.0443789,9.13012854 10.7303289,9.13012854 C11.4154289,9.13012854 11.9713289,9.68602854 11.9713289,10.3711285 Z M16.1601289,10.3711285 C16.1601289,11.0570785 15.6042289,11.6121285 14.9191289,11.6121285 C14.2331789,11.6121285 13.6781289,11.0570785 13.6781289,10.3711285 C13.6781289,9.68602854 14.2331789,9.13012854 14.9191289,9.13012854 C15.6042289,9.13012854 16.1601289,9.68602854 16.1601289,10.3711285 Z"></path></g></svg></div></div>
+                    <!-- input -->
+                    <input type="email"  name="email" class="form-control" id="inputEmail4" placeholder="Email" required="">
+                  <div id="pwm-inline-icon-82911" class="pwm-field-icon" style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; z-index: 2147483645 !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -29.3124px; margin-left: 334.015px;"><svg style="display: inline-block !important; width: 16px !important; height: 16px !important; fill: rgb(230, 0, 23) !important; margin-top: 0.5px !important; position: absolute !important; top: 0px !important; left: 0px !important;" viewBox="0 0 64 64"><g><path d="m20,28.12a33.78,33.78 0 0 1 13.36,2.74a22.18,22.18 0 0 1 0.64,5.32c0,9.43 -5.66,17.81 -14,20.94c-8.34,-3.13 -14,-11.51 -14,-20.94a22.2,22.2 0 0 1 0.64,-5.32a33.78,33.78 0 0 1 13.36,-2.74m0,-28.12c-8.82,0 -14,7.36 -14,16.41l0,5.16c2,-1.2 2,-1.49 5,-2.08l0,-3.08c0,-6.21 2.9,-11.41 8.81,-11.41l0.19,0c6.6,0 9,4.77 9,11.41l0,3.08c3,0.58 3,0.88 5,2.08l0,-5.16c0,-9 -5.18,-16.41 -14,-16.41l0,0zm0,22c-6.39,0 -12.77,0.67 -18.47,4a31.6,31.6 0 0 0 -1.53,9.74c0,13.64 8.52,25 20,28.26c11.48,-3.27 20,-14.63 20,-28.26a31.66,31.66 0 0 0 -1.54,-9.77c-5.69,-3.3 -12.08,-4 -18.47,-4l0,0l0.01,0.03z"></path><path d="m21.23,39.5a2.81,2.81 0 0 0 1.77,-2.59a2.94,2.94 0 0 0 -3,-2.93a3,3 0 0 0 -3,3a2.66,2.66 0 0 0 1.77,2.48l-1.77,4.54l6,0l-1.77,-4.5z"></path></g></svg><span id="pwm-inline-icon-badge-82911" style="position: absolute !important; inset: auto auto 0px 7px !important; box-sizing: content-box !important; font-family: monospace !important; font-size: 9px !important; border-radius: 2px !important; color: white !important; background: rgb(112, 185, 52) !important; border: 0.5px solid white !important; width: auto !important; height: 10px !important; min-width: 10px !important; min-height: 0px !important; display: flex !important; align-items: center !important; justify-content: center !important; pointer-events: none !important;">0</span></div></div>
+                  <div class="col-12">
+                    <!-- input -->
+                    <input type="password"  name ="pwd"class="form-control" id="inputPassword4" placeholder="Password" required="">
+                  <div id="pwm-inline-icon-27169" class="pwm-field-icon" style="position: absolute !important; width: 18px !important; height: 18px !important; min-height: 0px !important; min-width: 0px !important; z-index: 2147483645 !important; box-shadow: none !important; box-sizing: content-box !important; background: none !important; border: none !important; padding: 0px !important; cursor: pointer !important; outline: none !important; margin-top: -29.3124px; margin-left: 334.015px;"><svg style="display: inline-block !important; width: 16px !important; height: 16px !important; fill: rgb(230, 0, 23) !important; margin-top: 0.5px !important; position: absolute !important; top: 0px !important; left: 0px !important;" viewBox="0 0 64 64"><g><path d="m20,28.12a33.78,33.78 0 0 1 13.36,2.74a22.18,22.18 0 0 1 0.64,5.32c0,9.43 -5.66,17.81 -14,20.94c-8.34,-3.13 -14,-11.51 -14,-20.94a22.2,22.2 0 0 1 0.64,-5.32a33.78,33.78 0 0 1 13.36,-2.74m0,-28.12c-8.82,0 -14,7.36 -14,16.41l0,5.16c2,-1.2 2,-1.49 5,-2.08l0,-3.08c0,-6.21 2.9,-11.41 8.81,-11.41l0.19,0c6.6,0 9,4.77 9,11.41l0,3.08c3,0.58 3,0.88 5,2.08l0,-5.16c0,-9 -5.18,-16.41 -14,-16.41l0,0zm0,22c-6.39,0 -12.77,0.67 -18.47,4a31.6,31.6 0 0 0 -1.53,9.74c0,13.64 8.52,25 20,28.26c11.48,-3.27 20,-14.63 20,-28.26a31.66,31.66 0 0 0 -1.54,-9.77c-5.69,-3.3 -12.08,-4 -18.47,-4l0,0l0.01,0.03z"></path><path d="m21.23,39.5a2.81,2.81 0 0 0 1.77,-2.59a2.94,2.94 0 0 0 -3,-2.93a3,3 0 0 0 -3,3a2.66,2.66 0 0 0 1.77,2.48l-1.77,4.54l6,0l-1.77,-4.5z"></path></g></svg><span id="pwm-inline-icon-badge-27169" style="position: absolute !important; inset: auto auto 0px 7px !important; box-sizing: content-box !important; font-family: monospace !important; font-size: 9px !important; border-radius: 2px !important; color: white !important; background: rgb(112, 185, 52) !important; border: 0.5px solid white !important; width: auto !important; height: 10px !important; min-width: 10px !important; min-height: 0px !important; display: flex !important; align-items: center !important; justify-content: center !important; pointer-events: none !important;">0</span></div></div>
+                  <div class="d-flex justify-content-between">
+                    <!-- form check -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <!-- label --> <label class="form-check-label" for="flexCheckDefault">
+                        Remember me
+                      </label>
+                    </div>
+                    <div> Forgot password? <a href="../pages/forgot-password.html">Reset It</a></div>
+                  </div>
                   <!-- btn -->
-                  <div class="col-12 d-grid"> <button type="submit" class="btn btn-primary">Register</button>
+                  <div class="col-12 d-grid"> <button type="submit" name="submit" class="btn btn-primary">Login</button>
                   </div>
-    
-                  <!-- text -->
-                  <p><small>By continuing, you agree to our <a href="#!"> Terms of Service</a> &amp; <a href="#!">Privacy
-                        Policy</a></small></p>
+                  <!-- link -->
+                  <div>Don’t have an account? <a href="../pages/signup.html"> Sign Up</a></div>
                 </div>
               </form>
             </div>
           </div>
         </div>
-    
-    
       </section>
-      <!-- Footer-->
       <div class="footer mt-5">
         <div class="container">
           <footer class="row g-4 py-4">
@@ -158,19 +155,19 @@
                 <ul class="list-inline mb-0">
                   <li class="list-inline-item text-dark">Payment Partners</li>
                   <li class="list-inline-item">
-                    <a href="#!"><img src="../assets/images/payment/amazonpay.svg" alt=""></a>
+                    <a href="#!"><img src="./assets/images/payment/amazonpay.svg" alt=""></a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="#!"><img src="../assets/images/payment/american-express.svg" alt=""></a>
+                    <a href="#!"><img src="./assets/images/payment/american-express.svg" alt=""></a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="#!"><img src="../assets/images/payment//mastercard.svg" alt=""></a>
+                    <a href="#!"><img src="./assets/images/payment//mastercard.svg" alt=""></a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="#!"><img src="../assets/images/payment/paypal.svg" alt=""></a>
+                    <a href="#!"><img src="./assets/images/payment/paypal.svg" alt=""></a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="#!"><img src="../assets/images/payment/visa.svg" alt=""></a>
+                    <a href="#!"><img src="./assets/images/payment/visa.svg" alt=""></a>
                   </li>
                 </ul>
               </div>
@@ -178,9 +175,9 @@
                 <ul class="list-inline mb-0 text-lg-end text-center">
                   <li class="list-inline-item mb-2 mb-md-0 text-dark">Get deliveries with FreshCart</li>
                   <li class="list-inline-item ms-4">
-                    <a href="#!"> <img src="../assets/images/appbutton/appstore-btn.svg" alt="" style="width: 140px;"></a></li>
+                    <a href="#!"> <img src="./assets/images/appbutton/appstore-btn.svg" alt="" style="width: 140px;"></a></li>
                   <li class="list-inline-item">
-                    <a href="#!"> <img src="../assets/images/appbutton/googleplay-btn.svg" alt="" style="width: 140px;"></a></li>
+                    <a href="#!"> <img src="./assets/images/appbutton/googleplay-btn.svg" alt="" style="width: 140px;"></a></li>
                 </ul>
               </div>
             </div>  
